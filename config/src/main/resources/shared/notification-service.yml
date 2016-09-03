@@ -27,7 +27,7 @@ backup:
 spring:
   data:
     mongodb:
-      host: ${DOCKER_IP}
+      host: ${DOCKER_IP:192.168.99.100}
       username: user
       password: ${MONGODB_PASSWORD}
       database: piggymetrics

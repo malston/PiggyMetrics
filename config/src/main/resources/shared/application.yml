@@ -24,7 +24,7 @@ security:
 
 spring:
   rabbitmq:
-    host: ${DOCKER_IP}
+    host: ${DOCKER_IP:192.168.99.100}
 
 ---
 spring:
